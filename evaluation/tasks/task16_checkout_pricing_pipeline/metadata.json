@@ -1,0 +1,13 @@
+{
+  "id": "task16_checkout_pricing_pipeline",
+  "prompt": "Fix the failing tests in this repository. Preserve the existing API and make the smallest correct changes.",
+  "category": "cross-module business logic",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "commerce/"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

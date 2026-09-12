@@ -1,0 +1,13 @@
+{
+  "id": "task22_authorization_policy_engine",
+  "prompt": "Fix the failing tests in this repository. Preserve the existing API and make the smallest correct changes.",
+  "category": "authorization and policy resolution",
+  "difficulty": "hard",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "authz/"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

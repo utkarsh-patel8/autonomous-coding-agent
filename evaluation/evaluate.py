@@ -1115,9 +1115,34 @@ def main():
         ),
     )
 
+    parser.add_argument(
+        "--start",
+        type=int,
+        default=None,
+    )
+
+    parser.add_argument(
+        "--end",
+        type=int,
+        default=None,
+    )
+
     args = parser.parse_args()
 
     tasks = discover_tasks()
+
+    if args.start is not None or args.end is not None:
+
+        start = args.start or 1
+        end = args.end or len(tasks)
+
+        tasks = [
+            task
+            for task in tasks
+            if start <= int(
+                task.name.split("_")[0].replace("task", "")
+            ) <= end
+        ]
 
     if args.task is not None:
         tasks = [
