@@ -1,0 +1,13 @@
+{
+  "id": "task14_moving_average_windows",
+  "prompt": "Fix moving_average so it returns every complete sliding window, including the final one.",
+  "category": "off-by-one",
+  "difficulty": "easy",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "stats/windows.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

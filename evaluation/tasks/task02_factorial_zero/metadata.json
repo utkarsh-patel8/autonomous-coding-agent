@@ -1,0 +1,13 @@
+{
+  "id": "task02_factorial_zero",
+  "prompt": "Fix the factorial implementation so all tests pass without changing the public function signature.",
+  "category": "base case",
+  "difficulty": "easy",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "math_utils/factorial.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

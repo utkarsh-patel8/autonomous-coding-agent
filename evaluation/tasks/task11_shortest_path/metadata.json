@@ -1,0 +1,13 @@
+{
+  "id": "task11_shortest_path",
+  "prompt": "Fix shortest_path so it always returns a shortest path in an unweighted graph.",
+  "category": "graph traversal",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "graph/path.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

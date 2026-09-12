@@ -1,0 +1,9 @@
+.env
+.vscode/
+__pycache__/
+.pytest_cache/
+*.pyc
+runs/*.json
+!runs/.gitkeep
+evaluation/results/*.json
+!evaluation/results/.gitkeep

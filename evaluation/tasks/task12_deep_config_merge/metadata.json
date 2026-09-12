@@ -1,0 +1,13 @@
+{
+  "id": "task12_deep_config_merge",
+  "prompt": "Fix merge_config so nested dictionaries are merged recursively instead of replacing unrelated nested values.",
+  "category": "nested data",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "config/merge.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "task09_password_validation",
+  "prompt": "Fix password validation. A valid password must be at least 8 characters long and contain both an uppercase letter and a digit.",
+  "category": "boolean logic",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "auth/password.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "task03_chunk_remainder",
+  "prompt": "The chunking helper loses data for some input sizes. Fix it and keep its current interface.",
+  "category": "boundary/off-by-one",
+  "difficulty": "easy",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "utils/chunks.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

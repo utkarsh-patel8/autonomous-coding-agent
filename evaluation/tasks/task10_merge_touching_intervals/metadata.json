@@ -1,0 +1,13 @@
+{
+  "id": "task10_merge_touching_intervals",
+  "prompt": "Fix interval merging so overlapping or touching intervals are merged.",
+  "category": "boundary condition",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "intervals/merge.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

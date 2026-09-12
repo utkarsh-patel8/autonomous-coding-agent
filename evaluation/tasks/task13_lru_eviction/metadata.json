@@ -1,0 +1,13 @@
+{
+  "id": "task13_lru_eviction",
+  "prompt": "Fix the LRU cache eviction behavior. When capacity is exceeded, the least recently used entry must be removed.",
+  "category": "data structure",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "cache/lru.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

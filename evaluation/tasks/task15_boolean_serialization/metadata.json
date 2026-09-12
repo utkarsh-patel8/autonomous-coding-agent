@@ -1,0 +1,13 @@
+{
+  "id": "task15_boolean_serialization",
+  "prompt": "Fix encode_value so booleans are serialized as lowercase JSON-style true/false while preserving integer and string behavior.",
+  "category": "type handling",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "serializer/encode.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

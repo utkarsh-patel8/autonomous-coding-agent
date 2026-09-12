@@ -1,0 +1,13 @@
+{
+  "id": "task08_user_sorting",
+  "prompt": "Fix sort_users. Users must be ordered by age ascending, then by name ascending.",
+  "category": "sorting",
+  "difficulty": "easy",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "users/sort.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "task07_key_value_parser",
+  "prompt": "Fix the key-value parser so it handles blank lines and surrounding whitespace correctly.",
+  "category": "parsing",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "parser/kv.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

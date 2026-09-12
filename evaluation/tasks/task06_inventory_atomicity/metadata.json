@@ -1,0 +1,13 @@
+{
+  "id": "task06_inventory_atomicity",
+  "prompt": "Fix Inventory.sell so failed sales do not corrupt stock while preserving successful sale behavior.",
+  "category": "state mutation",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "inventory/service.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

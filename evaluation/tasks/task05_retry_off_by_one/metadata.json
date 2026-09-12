@@ -1,0 +1,13 @@
+{
+  "id": "task05_retry_off_by_one",
+  "prompt": "Fix the retry helper. The retries argument means additional attempts after the first attempt.",
+  "category": "retry semantics",
+  "difficulty": "medium",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "retrying/retry.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

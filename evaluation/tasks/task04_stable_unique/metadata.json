@@ -1,0 +1,13 @@
+{
+  "id": "task04_stable_unique",
+  "prompt": "Fix unique_preserving_order so duplicates are removed without changing the order of first appearance.",
+  "category": "data transformation",
+  "difficulty": "easy",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "utils/unique.py"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}
