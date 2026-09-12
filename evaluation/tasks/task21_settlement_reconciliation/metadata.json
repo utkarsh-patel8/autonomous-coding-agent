@@ -1,0 +1,13 @@
+{
+  "id": "task21_settlement_reconciliation",
+  "prompt": "Fix the failing tests in this repository. Preserve the existing API and make the smallest correct changes.",
+  "category": "financial settlement and reconciliation",
+  "difficulty": "hard",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "settlement/"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}

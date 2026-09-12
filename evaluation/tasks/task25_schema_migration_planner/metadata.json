@@ -1,0 +1,13 @@
+{
+  "id": "task25_schema_migration_planner",
+  "prompt": "Fix the failing tests in this repository. Preserve the existing API and make the smallest correct changes.",
+  "category": "schema migration planning and compatibility",
+  "difficulty": "hard",
+  "validation_command": "python -m pytest -q",
+  "editable_paths": [
+    "migrations/"
+  ],
+  "protected_paths": [
+    "tests/"
+  ]
+}
