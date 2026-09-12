@@ -1,4 +1,4 @@
-# Autonomous Coding Agent with Docker Sandbox
+# Codepilot: Autonomous Coding Agent with Docker Sandbox
 
 A lightweight autonomous software-engineering agent that can inspect an existing repository, reason about failures, edit source files, execute commands inside an isolated Docker sandbox, validate its own changes, retry after failed validation, and record detailed execution metrics and traces.
 
